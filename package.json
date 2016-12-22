@@ -1,0 +1,23 @@
+{
+  "name": "Tail",
+  "description": "Log tail app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "Priit Haamer",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=development electron .",
+    "package:macos": "build --macos --x64"
+  },
+  "dependencies": {
+    "electron-settings": "^2.2.2",
+    "tail": "^1.2.1"
+  },
+  "devDependencies": {
+    "electron": "^1.4.13",
+    "electron-builder": "^10.9.3"
+  },
+  "build": {
+    "appId": "com.priithaamer.Fiddlings"
+  }
+}
